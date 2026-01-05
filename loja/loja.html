@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja – Estrutura Base</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loja.css">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="../images/3.png" alt="Logo" id="logo">
+            </div>
+
+            <div class="search-line">
+<input type="text" placeholder="O que você procura"/>
+</div>
+
+<!-- MENU HAMBÚRGUER -->
+<div class="hamburger-container">
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+<!-- MENU LATERAL -->
+<nav class="side-menu" id="sideMenu">
+    <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="loja.html">Loja</a></li>
+        <li><a href="../autenticacao/login.html">Login</a></li>
+
+    </ul>
+</nav>
+
+            <nav class="nav-icones">
+    <ul class="menu-icones">
+<li>
+<a href="#" title="Favoritos">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M20.8 4.6c-1.4-1.4-3.6-1.4-5 0L12 8.4 8.2 4.6c-1.4-1.4-3.6-1.4-5 0s-1.4 3.6 0 5l8.8 8.8 8.8-8.8c1.4-1.4 1.4-3.6 0-5z" />
+</svg>
+</a>
+</li>
+<li>
+<a href="#" title="Carrinho">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="9" cy="21" r="1" />
+<circle cx="20" cy="21" r="1" />
+<path d="M1 1h4l2.6 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6" />
+</svg>
+</a>
+</li>
+<li>
+<a href="#" title="Usuário">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+<circle cx="12" cy="7" r="4" />
+</svg>
+</a>
+</li>
+</ul>
+</nav>
+        </div>
+    </header>
+
+    <!-- BANNER -->
+    <section class="banner">
+<video autoplay muted loop playsinline>
+<source src="../images/5822176-hd_1920_1080_25fps.mp4" type="video/mp4">
+</video>
+<div class="banner-overlay"></div>
+
+<div class="banner-text">Nova Coleção</div>
+</section>
+
+<div class="categorias-wrapper">
+    <h2 class="categorias-title reveal-top">Pensando em cada detalhe</h2>
+    <h3 class="subtitle">Desde de...</h3>
+
+    <section class="categorias">
+        <div class="categoria-card feminino reveal left">
+    <span>Feminino</span>
+</div>
+
+<div class="categoria-card masculino reveal right">
+    <span>Masculino</span>
+</div>
+
+<div class="categoria-card acessorios reveal left">
+    <span>Acessórios</span>
+</div>
+
+    </section>
+</div>
+
+
+
+
+   <section class="secao-produtos frase-efeito">
+    <h2>Peças criadas para acompanhar o seu ritmo.</h2>
+    <p class="dias-leves">Dias leves</p>
+
+    <div class="grid-produtos">
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_1.png" alt="Produto 1">
+            </div>
+            <p class="nome-roupa">Vestido KORA</p>
+            <h3>Versátil</h3>
+            <p class="preco">R$ 99</p>
+        </div>
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_2.png" alt="Produto 2">
+            </div>
+            <p class="nome-roupa">Conjunto KORA</p>
+            <h3>Leveza</h3>
+            <p class="preco">R$ 130</p>
+        </div>
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_7.png" alt="Produto 3">
+            </div>
+            <p class="nome-roupa">Conjunto KORA</p>
+            <h3>Atemporal</h3>
+            <p class="preco">R$ 99</p>
+        </div>
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_6.png" alt="Produto 4">
+            </div>
+            <p class="nome-roupa">Conjunto KORA</p>
+            <h3>Conforto</h3>
+            <p class="preco">R$ 159</p>
+        </div>
+
+    </div>
+</section>
+
+
+    <section class="secao-produtos-2 frase-efeito">
+    <h5>Menos excesso.Mais intenção</h5>
+    <p class="intencao">Intenção</p>
+
+    <div class="grid-produtos">
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_5.png" alt="Produto 5">
+            </div>
+            <p class="nome-roupa">Suéter KORA</p>
+            <h3>Casual</h3>
+            <p class="preco-2">R$ 229</p>
+        </div>
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_8.png" alt="Produto 6">
+            </div>
+            <p class="nome-roupa">Conjunto KORA</p>
+            <h3>Fino</h3>
+            <p class="preco-2">R$ 315</p>
+        </div>
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_3.png" alt="Produto 5">
+            </div>
+            <p class="nome-roupa">Suéter KORA</p>
+            <h3>Casual</h3>
+            <p class="preco-2">R$ 229</p>
+        </div>
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_9.png" alt="Produto 6">
+            </div>
+            <p class="nome-roupa">Casaco KORA</p>
+            <h3>Elegante</h3>
+            <p class="preco-2">R$ 199</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="secao-produtos-3 frase-efeito">
+    <h6>O essencial nos pequenos gestos</h6>
+    <p class="intencao">Detalhes</p>
+
+    <div class="grid-produtos">
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_10.png" alt="Produto 10">
+            </div>
+            <p class="nome-roupa">Pulseira KORA</p>
+            <h3>Delicado</h3>
+            <p class="preco-2">R$ 119</p>
+        </div>
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_11.png" alt="Produto 11">
+            </div>
+            <p class="nome-roupa">Relógio KORA</p>
+            <h3>Versátil</h3>
+            <p class="preco-2">R$ 1219</p>
+        </div>
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_12.png" alt="Produto 12">
+            </div>
+            <p class="nome-roupa">Pulseira KORA</p>
+            <h3>Fino</h3>
+            <p class="preco-2">R$ 189</p>
+        </div>
+
+        <div class="produto">
+            <div class="produto-img">
+                <img src="../images/prod_13.png" alt="Produto 6">
+            </div>
+            <p class="nome-roupa">Bracelete KORA</p>
+            <h3>Versátil</h3>
+            <p class="preco-2">R$ 219</p>
+        </div>
+
+    </div>
+</section>
+
+<div class="intro-pilares reveal-soft">
+    <span class="linha"></span>
+    <p>Nossos princípios</p>
+</div>
+
+
+
+<div class="pilar reveal-soft" style="transition-delay: 0s">
+    <span class="numero">01</span>
+    <h3>Design consciente</h3>
+    <p>Peças pensadas para atravessar estações, sem excessos.</p>
+</div>
+
+<div class="pilar reveal-soft" style="transition-delay: .2s">
+    <span class="numero">02</span>
+    <h3>Conforto que permanece</h3>
+    <p>Modelagens leves que acompanham o ritmo real do dia.</p>
+</div>
+
+<div class="pilar reveal-soft" style="transition-delay: .4s">
+    <span class="numero">03</span>
+    <h3>Essencialidade</h3>
+    <p>Menos tendência, mais intenção em cada detalhe.</p>
+</div>
+
+
+
+<div class="section-spacer"></div>
+
+
+    <!-- FOOTER -->
+  <div class="quadrado_3">
+
+    <footer class="footer-kora">
+
+        <!-- COLUNA ESQUERDA -->
+        <div class="footer-left">
+            <div class="footer-logo logo-reveal">
+    <img src="../images/2.png" alt="KORA Logo">
+</div>
+
+
+            <div class="footer-desc typewrite" data-text="Onde a beleza encontra propósito."></div>
+        </div>
+
+        <!-- COLUNA INSTITUCIONAL -->
+        <div class="footer-col">
+            <div class="footer-title typewrite" data-text="INSTITUCIONAL"></div>
+            <div class="typewrite" data-text="Sobre nós"></div>
+            <div class="typewrite" data-text="Carreiras"></div>
+            <div class="typewrite" data-text="Sustentabilidade"></div>
+            <div class="typewrite" data-text="Acessibilidade"></div>
+            <div class="typewrite" data-text="Termos e Condições"></div>
+            <div class="typewrite" data-text="Privacidade"></div>
+        </div>
+
+        <!-- COLUNA SUPORTE -->
+        <div class="footer-col">
+            <div class="footer-title typewrite" data-text="SUPORTE"></div>
+            <div class="typewrite" data-text="Central de Ajuda"></div>
+            <div class="typewrite" data-text="Dúvidas Frequentes"></div>
+            <div class="typewrite" data-text="Reportar Problema"></div>
+            <div class="typewrite" data-text="Status do Serviço"></div>
+        </div>
+
+        <!-- COLUNA SOCIAL -->
+        <div class="footer-col">
+            <div class="footer-title typewrite" data-text="REDES SOCIAIS"></div>
+            <div class="typewrite" data-text="Instagram"></div>
+            <div class="typewrite" data-text="TikTok"></div>
+            <div class="typewrite" data-text="YouTube"></div>
+            <div class="typewrite" data-text="Pinterest"></div>
+        </div>
+
+        <!-- NEWSLETTER -->
+        <div class="footer-newsletter">
+            <span class="typewrite" data-text="QUER RECEBER NOVIDADES?"></span>
+
+            <div class="newsletter-email">
+                <span class="typewrite" data-text="EMAIL"></span>
+                <div class="email-line"></div>
+            </div>
+        </div>
+
+        <!-- COPY -->
+        <div class="footer-copy typewrite" data-text="2025 KORA®. TODOS OS DIREITOS RESERVADOS"></div>
+
+    </footer>
+
+</div>
+
+<script>
+    //parte categorias
+const tituloCategorias = document.querySelector('.categorias-title');
+
+const observerCategorias = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            tituloCategorias.classList.add('active');
+        }
+    });
+}, { threshold: 0.3 });
+
+observerCategorias.observe(document.querySelector('.categoria-card'));
+
+
+
+//efeito menu hamburguer
+    const hamburger = document.getElementById("hamburger");
+    const sideMenu = document.getElementById("sideMenu");
+
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        sideMenu.classList.toggle("open");
+    });
+
+//reveal categorias
+const reveals = document.querySelectorAll('.reveal');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+        }
+    });
+}, { threshold: 0.3 });
+
+reveals.forEach(el => observer.observe(el));
+
+
+//reveal seção final 
+
+const softReveals = document.querySelectorAll('.reveal-soft');
+
+const observerSoft = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+}, { threshold: 0.3 });
+
+softReveals.forEach(el => observerSoft.observe(el));
+
+
+
+
+
+
+/* Typing do Footer */
+const items = document.querySelectorAll(".typewrite");
+let delayBase = 500;
+
+items.forEach((el) => {
+    const text = el.getAttribute("data-text");
+
+    if (!text) return; // protege contra elementos sem data-text
+
+    el.textContent = "";
+
+    const startDelay = delayBase;
+    delayBase += text.length * 40 + 400;
+
+    setTimeout(() => {
+        let i = 0;
+        el.style.opacity = 1;
+
+        const interval = setInterval(() => {
+            el.textContent += text[i];
+            i++;
+
+            if (i >= text.length) clearInterval(interval);
+        }, 40);
+
+    }, startDelay);
+});
+
+//animação da logo no footer
+document.addEventListener("DOMContentLoaded", () => {
+    const targets = document.querySelectorAll('.logo-reveal');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    });
+
+    targets.forEach(el => observer.observe(el));
+});
+
+
+
+
+//frase efeito cards produtos
+const frases = document.querySelectorAll('.frase-efeito');
+
+const observerFrase = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('ativa');
+      observerFrase.unobserve(entry.target); // executa só uma vez
+    }
+  });
+}, {
+  threshold: 0.6
+});
+
+frases.forEach(frase => observerFrase.observe(frase));
+
+
+
+</script>
+
+
+</body>
+</html>
